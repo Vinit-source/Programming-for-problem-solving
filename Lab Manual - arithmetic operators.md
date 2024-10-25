@@ -1,66 +1,60 @@
----
+## Objective 1: Write a Program to Demonstrate the Use of Conditional Expressions and Explain the Order of Evaluation
 
+### Aim
 
----
+To write a C program that uses conditional expressions (ternary operator) to solve a simple problem and to explain the order of evaluation of the expressions involved.
 
-<h2 id="objective-1-write-a-program-to-demonstrate-the-use-of-conditional-expressions-and-explain-the-order-of-evaluation">Objective 1: Write a Program to Demonstrate the Use of Conditional Expressions and Explain the Order of Evaluation</h2>
-<h3 id="aim">Aim</h3>
-<p>To write a C program that uses conditional expressions (ternary operator) to solve a simple problem and to explain the order of evaluation of the expressions involved.</p>
-<h3 id="example-problem">Example Problem</h3>
-<p><strong>Problem Statement:</strong> Determine if a person is eligible to vote based on their age. If the age is greater than or equal to 18, print “Eligible to vote”, otherwise print “Not eligible to vote”.</p>
-<h4 id="algorithm">Algorithm</h4>
-<ol>
-<li>
-<p>Start the program.</p>
-</li>
-<li>
-<p>Declare an integer variable <code>age</code>.</p>
-</li>
-<li>
-<p>Take user input for the value of <code>age</code>.</p>
-</li>
-<li>
-<p>Use a conditional expression to check if the age is greater than or equal to 18.</p>
-</li>
-<li>
-<p>Print “Eligible to vote” if the condition is true, otherwise print “Not eligible to vote”.</p>
-</li>
-<li>
-<p>End the program.</p>
-</li>
-</ol>
-<h4 id="flowchart">Flowchart</h4>
-<pre class=" language-mermaid"><svg id="mermaid-svg-CBDjFf0rPinxwkMM" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="556.4656372070312" style="max-width: 441.796875px;" viewBox="0 0 441.796875 556.4656372070312"><style>#mermaid-svg-CBDjFf0rPinxwkMM{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#000000;}#mermaid-svg-CBDjFf0rPinxwkMM .error-icon{fill:#552222;}#mermaid-svg-CBDjFf0rPinxwkMM .error-text{fill:#552222;stroke:#552222;}#mermaid-svg-CBDjFf0rPinxwkMM .edge-thickness-normal{stroke-width:2px;}#mermaid-svg-CBDjFf0rPinxwkMM .edge-thickness-thick{stroke-width:3.5px;}#mermaid-svg-CBDjFf0rPinxwkMM .edge-pattern-solid{stroke-dasharray:0;}#mermaid-svg-CBDjFf0rPinxwkMM .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-svg-CBDjFf0rPinxwkMM .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-svg-CBDjFf0rPinxwkMM .marker{fill:#666;stroke:#666;}#mermaid-svg-CBDjFf0rPinxwkMM .marker.cross{stroke:#666;}#mermaid-svg-CBDjFf0rPinxwkMM svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#mermaid-svg-CBDjFf0rPinxwkMM .label{font-family:"trebuchet ms",verdana,arial,sans-serif;color:#000000;}#mermaid-svg-CBDjFf0rPinxwkMM .cluster-label text{fill:#333;}#mermaid-svg-CBDjFf0rPinxwkMM .cluster-label span{color:#333;}#mermaid-svg-CBDjFf0rPinxwkMM .label text,#mermaid-svg-CBDjFf0rPinxwkMM span{fill:#000000;color:#000000;}#mermaid-svg-CBDjFf0rPinxwkMM .node rect,#mermaid-svg-CBDjFf0rPinxwkMM .node circle,#mermaid-svg-CBDjFf0rPinxwkMM .node ellipse,#mermaid-svg-CBDjFf0rPinxwkMM .node polygon,#mermaid-svg-CBDjFf0rPinxwkMM .node path{fill:#eee;stroke:#999;stroke-width:1px;}#mermaid-svg-CBDjFf0rPinxwkMM .node .label{text-align:center;}#mermaid-svg-CBDjFf0rPinxwkMM .node.clickable{cursor:pointer;}#mermaid-svg-CBDjFf0rPinxwkMM .arrowheadPath{fill:#333333;}#mermaid-svg-CBDjFf0rPinxwkMM .edgePath .path{stroke:#666;stroke-width:1.5px;}#mermaid-svg-CBDjFf0rPinxwkMM .flowchart-link{stroke:#666;fill:none;}#mermaid-svg-CBDjFf0rPinxwkMM .edgeLabel{background-color:white;text-align:center;}#mermaid-svg-CBDjFf0rPinxwkMM .edgeLabel rect{opacity:0.5;background-color:white;fill:white;}#mermaid-svg-CBDjFf0rPinxwkMM .cluster rect{fill:hsl(210,66.6666666667%,95%);stroke:#26a;stroke-width:1px;}#mermaid-svg-CBDjFf0rPinxwkMM .cluster text{fill:#333;}#mermaid-svg-CBDjFf0rPinxwkMM .cluster span{color:#333;}#mermaid-svg-CBDjFf0rPinxwkMM div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:12px;background:hsl(-160,0%,93.3333333333%);border:1px solid #26a;border-radius:2px;pointer-events:none;z-index:100;}#mermaid-svg-CBDjFf0rPinxwkMM:root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}#mermaid-svg-CBDjFf0rPinxwkMM flowchart{fill:apa;}</style><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-A LE-B" id="L-A-B" style="opacity: 1;"><path class="path" d="M213.37109375,54.71875L213.37109375,79.71875L213.37109375,104.71875" marker-end="url(https://stackedit.io/app#arrowhead7)" style="fill:none"></path><defs><marker id="arrowhead7" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-B LE-C" id="L-B-C" style="opacity: 1;"><path class="path" d="M213.37109375,151.4375L213.37109375,176.4375L213.87109375000003,201.93750152587884" marker-end="url(https://stackedit.io/app#arrowhead8)" style="fill:none"></path><defs><marker id="arrowhead8" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-C LE-D" id="L-C-D" style="opacity: 1;"><path class="path" d="M179.68834314807515,294.62662287219615L94.421875,366.6687469482422L94.421875,405.0281219482422" marker-end="url(https://stackedit.io/app#arrowhead9)" style="fill:none"></path><defs><marker id="arrowhead9" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-C LE-E" id="L-C-E" style="opacity: 1;"><path class="path" d="M248.05384599637875,294.62662427950005L332.3203125,366.6687469482422L332.3203125,405.0281219482422" marker-end="url(https://stackedit.io/app#arrowhead10)" style="fill:none"></path><defs><marker id="arrowhead10" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-D LE-F" id="L-D-F" style="opacity: 1;"><path class="path" d="M94.421875,451.7468719482422L94.421875,476.7468719482422L190.25390625,515.7078435706848" marker-end="url(https://stackedit.io/app#arrowhead11)" style="fill:none"></path><defs><marker id="arrowhead11" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-E LE-F" id="L-E-F" style="opacity: 1;"><path class="path" d="M332.3203125,451.7468719482422L332.3203125,476.7468719482422L236.48828125,515.7078435706848" marker-end="url(https://stackedit.io/app#arrowhead12)" style="fill:none"></path><defs><marker id="arrowhead12" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-A-B" class="edgeLabel L-LS-A' L-LE-B"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-B-C" class="edgeLabel L-LS-B' L-LE-C"></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(94.421875,366.6687469482422)" style="opacity: 1;"><g transform="translate(-11.328125,-13.359375)" class="label"><rect rx="0" ry="0" width="22.65625" height="26.71875"></rect><foreignObject width="22.65625" height="26.71875"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-C-D" class="edgeLabel L-LS-C' L-LE-D">Yes</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(332.3203125,366.6687469482422)" style="opacity: 1;"><g transform="translate(-9.3984375,-13.359375)" class="label"><rect rx="0" ry="0" width="18.796875" height="26.71875"></rect><foreignObject width="18.796875" height="26.71875"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-C-E" class="edgeLabel L-LS-C' L-LE-E">No</span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-D-F" class="edgeLabel L-LS-D' L-LE-F"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span id="L-L-E-F" class="edgeLabel L-LS-E' L-LE-F"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="flowchart-A-36" transform="translate(213.37109375,31.359375)" style="opacity: 1;"><rect rx="0" ry="0" x="-27.5078125" y="-23.359375" width="55.015625" height="46.71875" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-17.5078125,-13.359375)"><foreignObject width="35.015625" height="26.71875"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Start</div></foreignObject></g></g></g><g class="node default" id="flowchart-B-37" transform="translate(213.37109375,128.078125)" style="opacity: 1;"><rect rx="0" ry="0" x="-43.6640625" y="-23.359375" width="87.328125" height="46.71875" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-33.6640625,-13.359375)"><foreignObject width="67.328125" height="26.71875"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Input Age</div></foreignObject></g></g></g><g class="node default" id="flowchart-C-39" transform="translate(213.37109375,264.8734359741211)" style="opacity: 1;"><polygon points="63.4359375,0 126.871875,-63.4359375 63.4359375,-126.871875 0,-63.4359375" transform="translate(-63.4359375,63.4359375)" class="label-container"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-37.125,-13.359375)"><foreignObject width="74.25" height="26.71875"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">age &gt;= 18?</div></foreignObject></g></g></g><g class="node default" id="flowchart-D-41" transform="translate(94.421875,428.3874969482422)" style="opacity: 1;"><rect rx="0" ry="0" x="-86.421875" y="-23.359375" width="172.84375" height="46.71875" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-76.421875,-13.359375)"><foreignObject width="152.84375" height="26.71875"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Print 'Eligible to vote'</div></foreignObject></g></g></g><g class="node default" id="flowchart-E-43" transform="translate(332.3203125,428.3874969482422)" style="opacity: 1;"><rect rx="0" ry="0" x="-101.4765625" y="-23.359375" width="202.953125" height="46.71875" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-91.4765625,-13.359375)"><foreignObject width="182.953125" height="26.71875"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Print 'Not eligible to vote'</div></foreignObject></g></g></g><g class="node default" id="flowchart-F-45" transform="translate(213.37109375,525.1062469482422)" style="opacity: 1;"><rect rx="0" ry="0" x="-23.1171875" y="-23.359375" width="46.234375" height="46.71875" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-13.1171875,-13.359375)"><foreignObject width="26.234375" height="26.71875"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">End</div></foreignObject></g></g></g></g></g></g></svg></pre>
-<h4 id="hint-code-snippet">Hint Code Snippet</h4>
-<ul>
-<li>
-<p>Declare a variable <code>age</code> and use <code>scanf</code> to take user input.</p>
-</li>
-<li>
-<p>Use the ternary operator <code>? :</code> to implement the condition.</p>
-<pre><code>int age;
-printf("Enter your age: ");
-scanf("%d", &amp;age);
-printf("%s", age &gt;= 18 ? "Eligible to vote" : "Not eligible to vote");
-</code></pre>
-</li>
-<li>
-<p><strong>Hint:</strong> Think about what happens if you change the value of <code>age</code>—how does it affect the output?</p>
-</li>
-<li>
-<p><strong>Explanation:</strong> Note the evaluation order: the condition is evaluated first (<code>age &gt;= 18</code>), and based on whether it’s true or false, the output is determined.</p>
-</li>
-</ul>
-<h4 id="suggested-programs">Suggested Programs</h4>
-<ol>
-<li>
-<p>Write a program to determine if a number is even or odd using conditional expressions.</p>
-</li>
-<li>
-<p>Write a program to find the maximum of two numbers using the ternary operator.</p>
-</li>
-<li>
-<p>Develop a program to check if a person is eligible for a senior citizen discount (age &gt;= 60).</p>
-</li>
-</ol>
+### Example Problem
 
+**Problem Statement:** Determine if a person is eligible to vote based on their age. If the age is greater than or equal to 18, print "Eligible to vote", otherwise print "Not eligible to vote".
+
+#### Algorithm
+
+1.  Start the program.
+    
+2.  Declare an integer variable `age`.
+    
+3.  Take user input for the value of `age`.
+    
+4.  Use a conditional expression to check if the age is greater than or equal to 18.
+    
+5.  Print "Eligible to vote" if the condition is true, otherwise print "Not eligible to vote".
+    
+6.  End the program.
+    
+
+#### Flowchart
+
+```mermaid
+graph TD; A[Start] --> B[Input Age]; B --> C{age >= 18?}; C -- Yes --> D[Print 'Eligible to vote']; C -- No --> E[Print 'Not eligible to vote']; D --> F[End]; E --> F[End];
+```
+        
+
+#### Hint Code Snippet
+
+-   Declare a variable `age` and use `scanf` to take user input.
+    
+-   Use the ternary operator `? :` to implement the condition.
+    
+    ```
+    int age;
+    printf("Enter your age: ");
+    scanf("%d", &age);
+    printf("%s", age >= 18 ? "Eligible to vote" : "Not eligible to vote");
+    ```
+    
+-   **Hint:** Think about what happens if you change the value of `age`—how does it affect the output?
+    
+-   **Explanation:** Note the evaluation order: the condition is evaluated first (`age >= 18`), and based on whether it's true or false, the output is determined.
+    
+
+#### Suggested Programs
+
+1.  Write a program to determine if a number is even or odd using conditional expressions.
+    
+2.  Write a program to find the maximum of two numbers using the ternary operator.
+    
+3.  Develop a program to check if a person is eligible for a senior citizen discount (age >= 60).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTY1MDA4NDIyMF19
+-->
