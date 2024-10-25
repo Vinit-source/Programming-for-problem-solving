@@ -16,7 +16,7 @@ To write a C program that uses conditional operator (ternary operator) to solve 
     
 3.  Take user input for the value of `age`.
     
-4.  Use a conditional expression to check if the age is greater than or equal to 18.
+4.  Use a conditional operator to check if the age is greater than or equal to 18.
     
 5.  Print "Eligible to vote" if the condition is true, otherwise print "Not eligible to vote".
     
@@ -50,11 +50,11 @@ graph TD; A[Start] --> B[Input Age]; B --> C{age >= 18?}; C -- Yes --> D[Print '
 
 #### Suggested Programs
 
-1.  Write a program to determine if a number is even or odd using conditional expressions.
+1.  Write a program to determine if a number is even or odd using conditional operator.
     
 2.  Write a program to find the maximum of two numbers using the ternary operator.
     
 3.  Develop a program to check if a person is eligible for a senior citizen discount (age >= 60).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTk3MzQ4MTAsNjU1NjQwNzc2XX0=
+eyJoaXN0b3J5IjpbMTA0MTMzMjQ3XX0=
 -->
