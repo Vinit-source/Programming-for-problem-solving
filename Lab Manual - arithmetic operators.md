@@ -1,4 +1,4 @@
-## Objective 1: Write a Program to Demonstrate the Use of Conditional Expressions and Explain the Order of Evaluation
+## Write a Program to Demonstrate the Use of Conditional Expressions and Explain the Order of Evaluation
 
 ### Aim
 
@@ -56,5 +56,5 @@ graph TD; A[Start] --> B[Input Age]; B --> C{age >= 18?}; C -- Yes --> D[Print '
     
 3.  Develop a program to check if a person is eligible for a senior citizen discount (age >= 60).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDA4NDIyMF19
+eyJoaXN0b3J5IjpbNjU1NjQwNzc2LDE2NTAwODQyMjBdfQ==
 -->
