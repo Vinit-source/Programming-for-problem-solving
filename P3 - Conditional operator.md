@@ -26,7 +26,7 @@ To write a C program that uses conditional operator (ternary operator) to solve 
 #### Flowchart
 
 ```mermaid
-graph TD; A[Start] --> B[Input Age]; B --> C{age >= 18?}; C -- Yes --> D[Print 'Eligible to vote']; C -- No --> E[Print 'Not eligible to vote']; D --> F[End]; E --> F[End];
+graph TD; A[Start] --> B[Input Age]; B --> C{age >= 18?}; C -- Yes --> D[Print "Eligible to vote"]; C -- No --> E[Print "Not eligible to vote"]; D --> F[End]; E --> F[End];
 ```
         
 
@@ -56,5 +56,5 @@ graph TD; A[Start] --> B[Input Age]; B --> C{age >= 18?}; C -- Yes --> D[Print '
     
 3.  Develop a program to check if a person is eligible for a senior citizen discount (age >= 60).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTMzMjQ3XX0=
+eyJoaXN0b3J5IjpbMTA4MTM3NDUyMSwxMDQxMzMyNDddfQ==
 -->
