@@ -1,4 +1,4 @@
-## Write a Program to Demonstrate the Use of Conditional operator and Explain the Order of Evaluation
+## Write a C Program to Demonstrate the Use of Conditional operator and Explain the Order of Evaluation
 
 ### Aim
 
@@ -56,5 +56,5 @@ graph TD; A[Start] --> B[Input Age]; B --> C{age >= 18?}; C -- Yes --> D[Print "
     
 3.  Develop a program to check if a person is eligible for a senior citizen discount (age >= 60).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTM3NDUyMSwxNjUwMDg0MjIwXX0=
+eyJoaXN0b3J5IjpbMTc5NDAxODYxNCwxNjUwMDg0MjIwXX0=
 -->
