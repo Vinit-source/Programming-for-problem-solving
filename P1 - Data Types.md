@@ -23,7 +23,7 @@ To write a C program that declares and initializes variables of various data typ
 
 #### Flowchart
 
-```
+```mermaid
 graph TD;
     A[Start] --> B[Declare variables of different data types];
     B --> C[Initialize variables];
@@ -61,5 +61,5 @@ graph TD;
     
 3.  Write a program to declare a structure with multiple data types and determine the total size of the structure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5NzIxMzcyXX0=
+eyJoaXN0b3J5IjpbLTIxMTc2MDAzMzVdfQ==
 -->
