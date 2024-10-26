@@ -90,5 +90,5 @@ graph TD;
     
 3.  Write a program to compare three numbers using relational operators and determine the largest.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTIzNTUxMDAsLTU4MTI0OTYzNV19
+eyJoaXN0b3J5IjpbLTE4OTIzNTUxMDBdfQ==
 -->
