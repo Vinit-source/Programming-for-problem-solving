@@ -25,7 +25,7 @@ To write a C program that demonstrates the use of arithmetic, relational, and lo
 
 #### Flowchart
 
-```
+```mermaid
 graph TD;
     A[Start] --> B[Declare and initialize a, b];
     B --> C[Perform arithmetic operations];
@@ -90,5 +90,5 @@ graph TD;
     
 3.  Write a program to compare three numbers using relational operators and determine the largest.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTI0OTYzNV19
+eyJoaXN0b3J5IjpbLTE4OTIzNTUxMDAsLTU4MTI0OTYzNV19
 -->
