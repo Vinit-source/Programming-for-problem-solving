@@ -85,12 +85,11 @@ graph TD;
 
 #### Suggested Programs
 
-1.  Write a program to demonstrate all six arithmetic operations (`+`, `-`, `*`, `/`, `%`, `++`, `--`) on two numbers.
+1.  If a five-digit number is input through the keyboard, write a program to calcluate 
     
 2.  Write a program to evaluate complex logical expressions involving three variables.
     
 3.  Write a program to compare three numbers using relational operators and determine the largest.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjYyMDU5MjAsLTE4OTIzNTUxMDBdfQ
-==
+eyJoaXN0b3J5IjpbMjA0MzQ2MzUxNSwtMTg5MjM1NTEwMF19
 -->
