@@ -87,9 +87,10 @@ graph TD;
 
 1.  If a five-digit number is input through the keyboard, write a program to calculate the sum of its digits (Hint: Use the modulus operator % to extract each digit from the end.)
     
-2.  Write a program to evaluate complex logical expressions involving three variables.
+2.  If the lengths of three sides of a triangle are input through the keyboard, write a program to find the area of the triangle.
     
-3.  Write a program to compare three numbers using relational operators and determine the largest.
+3.  Consider a curren
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTk3OTQ1NiwtMTg5MjM1NTEwMF19
+eyJoaXN0b3J5IjpbNzA4NjAxODI2LC04MjE5Nzk0NTYsLTE4OT
+IzNTUxMDBdfQ==
 -->
