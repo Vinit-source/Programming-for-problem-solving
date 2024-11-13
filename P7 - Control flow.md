@@ -13,7 +13,8 @@ To write a C program that demonstrates the use of if-else, switch-case, and loop
 4. Take user input for the choice and validate it.
 5. Based on the choice, use if-else or switch-case to perform the selected arithmetic operation.
 6. Print the result and ask if the user wants to perform another calculation.
-7. End the program when the user chooses to exit.
+7. Repeat from step 3 when the user enters a valid choice.
+8. End the program when the user chooses to exit.
 
 #### Flowchart
 ```mermaid
@@ -65,5 +66,5 @@ graph TD;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTg4OTQ5NSw5NTkxODkwNzNdfQ==
+eyJoaXN0b3J5IjpbNTg3MTgzNzE4XX0=
 -->
