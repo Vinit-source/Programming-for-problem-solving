@@ -56,5 +56,5 @@ graph TD; A[Start] --> B[Input Age]; B --> C{age >= 18?}; C -- Yes --> D[Print "
     
 3.  Develop a program to check if a person is eligible for a senior citizen discount (age >= 60).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDAxODYxNCwxMDQxMzMyNDddfQ==
+eyJoaXN0b3J5IjpbMTc5NDAxODYxNF19
 -->
