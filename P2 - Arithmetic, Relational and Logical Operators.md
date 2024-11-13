@@ -62,11 +62,10 @@ graph TD;
 	printf("After Pre-increment": %d", a);
     printf("a++ = %d\n", a++);  // Post-increment
 	printf("After Post-increment": %d", a);
-    printf("++a = %d\n", ++a);  // Pre-increment
+    printf("--a = %d\n", --a);  // Pre-decrement
 	printf("After Pre-decrement": %d", a);
-    printf("a++ = %d\n", a++);  // Post-increment
-	printf("After Post-increment": %d", a);
-    printf("a % b = %d\n", a % b);  // Modular division
+    printf("a-- = %d\n", a--);  // Post-decrement
+	printf("After Post-decrement": %d", a);
     ```
     
 -   Perform relational operations (`>`, `<`, `>=`, `<=`, `==`, `!=`).
@@ -85,7 +84,7 @@ graph TD;
     ```
     printf("(a > b) && (b > 0) = %d\n", (a > b) && (b > 0)); // Logical AND
     printf("(a < b) || (b > 0) = %d\n", (a < b) || (b > 0)); // Logical OR
-    printf("!(a < b) = %d\n", !(a < b) ); // Logical OR
+    printf("!(a < b) = %d\n", !(a < b) ); // Logical NOT
     ```
     
 -   **Hint:** Think about how relational and logical operators produce boolean results (`0` for false, `1` for true).
@@ -101,6 +100,6 @@ graph TD;
     
 3.  Consider a currency system in which there are notes of six denominations, namely, Re. 1, Rs. 2, Rs. 5, Rs. 10, Rs. 50, Rs. 100. If a sum of Rs. N is entered through the keyboard, write a program to compute the smallest number of notes that will combine to give Rs. N.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE3ODk2ODkyLDE0NDAwOTgxNDQsLTgyMT
-k3OTQ1NiwtMTg5MjM1NTEwMF19
+eyJoaXN0b3J5IjpbMTExNDYzOTU2MCwxNDQwMDk4MTQ0LC04Mj
+E5Nzk0NTYsLTE4OTIzNTUxMDBdfQ==
 -->
