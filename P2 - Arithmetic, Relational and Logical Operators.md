@@ -29,11 +29,11 @@ To write a C program that demonstrates the use of arithmetic, relational, and lo
 graph TD;
     A[Start] --> B[Declare and initialize a=8, b=4];
     B --> C[Perform arithmetic operations];
-    C --> D[Print arithmetic results];
+    C --> D[/Print arithmetic results/];
     D --> E[Perform relational operations];
-    E --> F[Print relational results];
+    E --> F[/Print relational results/];
     F --> G[Perform logical operations];
-    G --> H[Print logical results];
+    G --> H[/Print logical results/];
     H --> I[End];
 ```
 
@@ -58,7 +58,7 @@ graph TD;
     printf("a / b = %d\n", a / b);  // Division
     ```
     
--   Perform relational operations (`>`, `<`).
+-   Perform relational operations (`>`, `<`, `).
     
     ```
     printf("a > b = %d\n", a > b); // Greater than operator
@@ -69,7 +69,7 @@ graph TD;
     printf("a != b = %d\n", a != b); // Not equal to operator
     ```
     
--   Perform logical operations (`&&`, `||`).
+-   Perform logical operations (AND (`&&`), OR (`||`), NOT (`!`)).
     
     ```
     printf("(a > b) && (b > 0) = %d\n", (a > b) && (b > 0)); // Logical AND
@@ -90,6 +90,6 @@ graph TD;
     
 3.  Write a program to compare three numbers using relational operators and determine the largest.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTEyOTU2ODAsLTE4OTIzNTUxMDBdfQ
+eyJoaXN0b3J5IjpbLTEyMDg0NzAwNTUsLTE4OTIzNTUxMDBdfQ
 ==
 -->
