@@ -58,13 +58,14 @@ graph TD;
     printf("a * b = %d\n", a * b);  // Multiplication
     printf("a / b = %d\n", a / b);  // Division
     printf("a % b = %d\n", a % b);  // Modular division
-    
-    printf("a % b = %d\n", a % b);  // Modular division
-    
-    printf("a % b = %d\n", a % b);  // Modular division
-    
-    printf("a % b = %d\n", a % b);  // Modular division
-	printf("After 
+     printf("++a = %d\n", ++a);  // Pre-increment
+	printf("After Pre-increment": %d", a);
+    printf("a++ = %d\n", a++);  // Post-increment
+	printf("After Post-increment": %d", a);
+    printf("++a = %d\n", ++a);  // Pre-increment
+	printf("After Pre-increment": %d", a);
+    printf("a++ = %d\n", a++);  // Post-increment
+	printf("After Post-increment": %d", a);
     printf("a % b = %d\n", a % b);  // Modular division
     ```
     
@@ -100,6 +101,6 @@ graph TD;
     
 3.  Consider a currency system in which there are notes of six denominations, namely, Re. 1, Rs. 2, Rs. 5, Rs. 10, Rs. 50, Rs. 100. If a sum of Rs. N is entered through the keyboard, write a program to compute the smallest number of notes that will combine to give Rs. N.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDUxMTg2NSwtODIxOTc5NDU2LC0xOD
+eyJoaXN0b3J5IjpbMTQ0MDA5ODE0NCwtODIxOTc5NDU2LC0xOD
 kyMzU1MTAwXX0=
 -->
