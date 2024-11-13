@@ -14,11 +14,11 @@ To write a C program that demonstrates the use of arithmetic, relational, and lo
     
 2.  Declare two integer variables `a` and `b` and initialize them.
     
-3.  Perform arithmetic operations (`+`, `-`, `*`, `/`) and print the results.
+3.  Perform arithmetic operations (`+`, `-`, `*`, `/`, `%`, `++`, `--`) and print the results.
     
-4.  Perform relational operations (`>`, `<`) and print the results.
+4.  Perform relational operations (`>`, `<`, `>=`, `<=`, `==`, `!=`) and print the results.
     
-5.  Perform logical operations (`&&`, `||`) and print the results.
+5.  Perform logical operations (AND (`&&`), OR (`||`), NOT (`!`)) and print the results.
     
 6.  End the program.
     
@@ -27,7 +27,8 @@ To write a C program that demonstrates the use of arithmetic, relational, and lo
 
 ```mermaid
 graph TD;
-    A[Start] --> B[Declare and initialize a=8, b=4];
+    A[Start] --> B[Declare variables a, b];
+    B-->
     B --> C[Perform arithmetic operations];
     C --> D[/Print arithmetic results/];
     D --> E[Perform relational operations];
@@ -91,6 +92,6 @@ graph TD;
     
 3.  Consider a currency system in which there are notes of six denominations, namely, Re. 1, Rs. 2, Rs. 5, Rs. 10, Rs. 50, Rs. 100. If a sum of Rs. N is entered through the keyboard, write a program to compute the smallest number of notes that will combine to give Rs. N.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjE1NzMwNjEsLTgyMTk3OTQ1NiwtMT
-g5MjM1NTEwMF19
+eyJoaXN0b3J5IjpbLTM5NTg1ODIxNywtODIxOTc5NDU2LC0xOD
+kyMzU1MTAwXX0=
 -->
