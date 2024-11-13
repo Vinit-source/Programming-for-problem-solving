@@ -89,8 +89,8 @@ graph TD;
     
 2.  If the lengths of three sides of a triangle are input through the keyboard, write a program to find the area of the triangle.
     
-3.  Consider a curren
+3.  Consider a currency system in which there are notes of six denominations, namely, Re. 1, Rs. 2, Rs. 5, Rs. 10, Rs. 50, Rs. 100. If a sum of Rs. N is entered through the keyboard, write a program to compute the smallest number of notes that will combine to give Rs. N.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4NjAxODI2LC04MjE5Nzk0NTYsLTE4OT
-IzNTUxMDBdfQ==
+eyJoaXN0b3J5IjpbLTE1NjE1NzMwNjEsLTgyMTk3OTQ1NiwtMT
+g5MjM1NTEwMF19
 -->
