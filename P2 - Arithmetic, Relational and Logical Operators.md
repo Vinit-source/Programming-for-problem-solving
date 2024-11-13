@@ -56,7 +56,7 @@ graph TD;
     printf("a - b = %d\n", a - b);  // Subtraction
     printf("a * b = %d\n", a * b);  // Multiplication
     printf("a / b = %d\n", a / b);  // Division
-    printf("a % b = %d\n", a % b);  // Remainder
+    printf("a % b = %d\n", a % b);  // Modular division
     ```
     
 -   Perform relational operations (`>`, `<`, `>=`, `<=`, `==`, `!=`).
@@ -91,5 +91,6 @@ graph TD;
     
 3.  Write a program to compare three numbers using relational operators and determine the largest.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODg5NjA3NCwtMTg5MjM1NTEwMF19
+eyJoaXN0b3J5IjpbLTE4NjYyMDU5MjAsLTE4OTIzNTUxMDBdfQ
+==
 -->
