@@ -6,7 +6,7 @@ To write a C program that declares and initializes variables of various data typ
 
 ### Example Problem
 
-**Problem Statement:** Declare and initialize variables of data types such as `int`, `float`, `char`, and `double`, and display their sizes using the `sizeof` operator.
+**Problem Statement:** Declare and initialize variables of data types such as `int`, `long`, `float`, `char`, and `double`, and display their sizes using the `sizeof` operator.
 
 #### Algorithm
 
@@ -63,6 +63,5 @@ graph TD;
     
 3.  Write a program to declare a structure with multiple data types and determine the total size of the structure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQzMDYwMDksLTEwODQ1NTMxODQsLT
-IxMTc2MDAzMzVdfQ==
+eyJoaXN0b3J5IjpbMTIxNzAzNTQyM119
 -->
