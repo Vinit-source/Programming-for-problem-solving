@@ -28,8 +28,8 @@ To write a C program that demonstrates the use of arithmetic, relational, and lo
 ```mermaid
 graph TD;
     A[Start] --> B[Declare variables a, b];
-    B-->
-    B --> C[Perform arithmetic operations];
+    B--> AB[/Input a and b/];
+    AB --> C[Perform arithmetic operations `+`, `-`, `*`, `/`, `%`];
     C --> D[/Print arithmetic results/];
     D --> E[Perform relational operations];
     E --> F[/Print relational results/];
@@ -92,6 +92,6 @@ graph TD;
     
 3.  Consider a currency system in which there are notes of six denominations, namely, Re. 1, Rs. 2, Rs. 5, Rs. 10, Rs. 50, Rs. 100. If a sum of Rs. N is entered through the keyboard, write a program to compute the smallest number of notes that will combine to give Rs. N.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTg1ODIxNywtODIxOTc5NDU2LC0xOD
+eyJoaXN0b3J5IjpbMTE0NTU2MTU4OCwtODIxOTc5NDU2LC0xOD
 kyMzU1MTAwXX0=
 -->
