@@ -16,7 +16,7 @@ To write a C program that declares and initializes variables of various data typ
     
 3.  Initialize the variables with appropriate values.
     
-4.  Use the `sizeof` operator to determine and print the sizes of each variable.
+4.  Use the `sizeof` operator to determine and print the sizes of each variable. Also, print the variable.
     
 5.  End the program.
     
@@ -62,6 +62,6 @@ graph TD;
     
 3.  Write a program to declare a structure with multiple data types and determine the total size of the structure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0NTE4Nzg2LC0xMDg0NTUzMTg0LC0yMT
-E3NjAwMzM1XX0=
+eyJoaXN0b3J5IjpbLTU3MzQ1MDAwMywtMTA4NDU1MzE4NCwtMj
+ExNzYwMDMzNV19
 -->
