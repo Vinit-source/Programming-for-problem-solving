@@ -8,7 +8,7 @@ To write a C program that demonstrates the use of if-else, switch-case, and loop
 
 #### Algorithm
 1. Start the program.
-2. Declare variables for two numbers and the user's choice.
+2. Declare variables for two numbers a and b and the user's choice.
 3. Use a menu-driven approach with a loop to display options for arithmetic operations.
 4. Take user input for the choice and validate it.
 5. Based on the choice, use if-else or switch-case to perform the selected arithmetic operation.
@@ -20,15 +20,15 @@ To write a C program that demonstrates the use of if-else, switch-case, and loop
 graph TD;
     A[Start] --> B[Declare variables for numbers and choice];
     B --> C[Repeat until user chooses to exit];
-    C --> D[Display menu: Addition, Subtraction, Multiplication, Division, Exit];
-    D --> E[Input choice from user];
+    C --> D[/Display menu: Addition, Subtraction, Multiplication, Division, Exit/];
+    D --> E[/Input choice from user/];
     E --> F{Is choice valid?};
     F -- No --> G[Print 'Invalid choice' and repeat];
     F -- Yes --> H{Is choice Exit?};
     H -- Yes --> I[End];
-    H -- No --> J[Input numbers];
+    H -- No --> J[/Input numbers a and b/];
     J --> K[Perform arithmetic operation based on choice];
-    K --> L[Print result];
+    K --> L[/Print result/];
     L --> C;
 ```
 - **Details:** This flowchart represents the program flow where the user is repeatedly asked to select an arithmetic operation until they choose to exit.
@@ -65,5 +65,5 @@ graph TD;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MTg5MDczXX0=
+eyJoaXN0b3J5IjpbLTc4MTg4OTQ5NSw5NTkxODkwNzNdfQ==
 -->
