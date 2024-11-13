@@ -12,7 +12,7 @@ To write a C program that declares and initializes variables of various data typ
 
 1.  Start the program.
     
-2.  Declare variables of different data types (`int`, `float`, `char`, `double`).
+2.  Declare variables of different data types (`int`, `long`, `float`, `char`, `double`).
     
 3.  Initialize the variables with appropriate values.
     
@@ -26,10 +26,7 @@ To write a C program that declares and initializes variables of various data typ
 ```mermaid
 graph TD;
     A[Start] --> B[Declare variables of different data types int a, float b, char c, double d];
-    B --> C[Initialize variables a = 10;
-    b = 5.5;
-    c = 'A';
-    double d = 15.1234;];
+    B --> C[Initialize variables a = 10, b = 5.5, c = 'A', d = 15.1234];
     C --> D[/Print sizes using sizeof operator/];
     D --> E[End];
 ```
@@ -45,10 +42,11 @@ graph TD;
     float b = 5.5;
     char c = 'A';
     double d = 15.1234;
-    printf("Size of int: %d bytes\n", sizeof(a));
-    printf("Size of float: %d bytes\n", sizeof(b));
-    printf("Size of char: %d bytes\n", sizeof(c));
-    printf("Size of double: %d bytes\n", sizeof(d));
+    long
+    printf("Size of int %d: %d bytes\n", a, sizeof(a));
+    printf("Size of float %f: %d bytes\n", b, sizeof(b));
+    printf("Size of char %c: %d bytes\n", c, sizeof(c));
+    printf("Size of double %lf: %d bytes\n", d, sizeof(d));
     ```
     
 -   **Hint:** Observe how different data types have different sizes. What might cause these differences?
@@ -64,6 +62,6 @@ graph TD;
     
 3.  Write a program to declare a structure with multiple data types and determine the total size of the structure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MjQ4MzcxMCwtMTA4NDU1MzE4NCwtMj
-ExNzYwMDMzNV19
+eyJoaXN0b3J5IjpbNTE0NTE4Nzg2LC0xMDg0NTUzMTg0LC0yMT
+E3NjAwMzM1XX0=
 -->
