@@ -41,7 +41,7 @@ graph TD;
 
 -   Declare `int a = 8, b = 4`.
     
--   Perform arithmetic operations (`+`, `-`, `*`, `/`).
+-   Perform arithmetic operations (`+`, `-`, `*`, `/`, `%`).
     
     ```
     int a, b;
@@ -56,9 +56,10 @@ graph TD;
     printf("a - b = %d\n", a - b);  // Subtraction
     printf("a * b = %d\n", a * b);  // Multiplication
     printf("a / b = %d\n", a / b);  // Division
+    printf("a % b = %d\n", a % b);  // Remainder
     ```
     
--   Perform relational operations (`>`, `<`, `).
+-   Perform relational operations (`>`, `<`, `>=`, `<=`, `==`, `!=`).
     
     ```
     printf("a > b = %d\n", a > b); // Greater than operator
@@ -90,6 +91,5 @@ graph TD;
     
 3.  Write a program to compare three numbers using relational operators and determine the largest.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDg0NzAwNTUsLTE4OTIzNTUxMDBdfQ
-==
+eyJoaXN0b3J5IjpbMTYyODg5NjA3NCwtMTg5MjM1NTEwMF19
 -->
