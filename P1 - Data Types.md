@@ -42,11 +42,12 @@ graph TD;
     float b = 5.5;
     char c = 'A';
     double d = 15.1234;
-    long
+    long e = 240000000;
     printf("Size of int %d: %d bytes\n", a, sizeof(a));
     printf("Size of float %f: %d bytes\n", b, sizeof(b));
     printf("Size of char %c: %d bytes\n", c, sizeof(c));
     printf("Size of double %lf: %d bytes\n", d, sizeof(d));
+    printf("Size of double %ld: %d bytes\n", e, sizeof(e));
     ```
     
 -   **Hint:** Observe how different data types have different sizes. What might cause these differences?
@@ -62,6 +63,6 @@ graph TD;
     
 3.  Write a program to declare a structure with multiple data types and determine the total size of the structure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzQ1MDAwMywtMTA4NDU1MzE4NCwtMj
+eyJoaXN0b3J5IjpbMTIwMjcwNTIyOCwtMTA4NDU1MzE4NCwtMj
 ExNzYwMDMzNV19
 -->
