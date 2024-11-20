@@ -27,6 +27,7 @@ To write a C program that declares and initializes variables of various data typ
 graph TD;
     A[Start] --> B[Declare variables of different data types int a, float b, char c, double d, long e];
     B --> C[Initialize variables a = 10, b = 5.5, c = 'A', d = 15.1234, e = 240000000];
+    B --> C[Initialize variables];
     C --> D[/Print sizes using sizeof operator/];
     D --> E[End];
 ```
@@ -63,5 +64,5 @@ graph TD;
     
 3.  Write a program to declare a structure with multiple data types and determine the total size of the structure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzAzNTQyM119
+eyJoaXN0b3J5IjpbMjA3NzM2ODA3OCwxMjE3MDM1NDIzXX0=
 -->
