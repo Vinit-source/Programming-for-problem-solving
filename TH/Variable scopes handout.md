@@ -80,8 +80,7 @@ Inside for loop: 11 \
 Inside for loop: 12 \
 Inside for loop: 13 \
 Inside for loop: 14 \
-Outside for loop: 15 \
-
+Outside for loop: 15 
 
 ----------
 
@@ -105,8 +104,7 @@ int main() {
 **Output:** \
 i = 0, j = 3 \
 i = 1, j = 2 \
-i = 2, j = 1 \
-
+i = 2, j = 1
 
 ----------
 
@@ -212,5 +210,5 @@ Outer i = 0 \
 
 ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzQ0MTEyNl19
+eyJoaXN0b3J5IjpbMzUzMjczNTA0XX0=
 -->
