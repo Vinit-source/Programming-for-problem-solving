@@ -164,9 +164,9 @@ int main() {
 
 ```
 Output: 
-i = 0, j = 0
-i = 0
-i = 0, j = 1
+i = 0, j = 0	\
+i = 0 \
+i = 0, j = 1 \
 i=0
 i = 0, j = 2
 i = 0
@@ -212,5 +212,5 @@ Outer i = 0
 
 ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDA1MzY1OF19
+eyJoaXN0b3J5IjpbLTE3OTA1MDY3NCwtNDMwMDUzNjU4XX0=
 -->
