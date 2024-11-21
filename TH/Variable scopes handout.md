@@ -17,7 +17,7 @@ int main() {
 }
 
 ```
-Output: \
+**Output:** \
 0 \
 1 \
 2 \
@@ -44,7 +44,7 @@ int main() {
 }
 
 ```
-Output: \
+**Output:** \
 Inside for loop: 0 \
 Inside for loop: 1 \
 Inside for loop: 2 \
@@ -74,7 +74,7 @@ int main() {
 
 ```
 
-Output: \
+**Output:** \
 Inside for loop: 10 \
 Inside for loop: 11 \
 Inside for loop: 12 \
@@ -102,7 +102,7 @@ int main() {
 }
 
 ```
-Output: \
+**Output:** \
 i = 0, j = 3 \
 i = 1, j = 2 \
 i = 2, j = 1 \
@@ -130,7 +130,7 @@ int main() {
 }
 
 ```
-Output: \
+**Output:** \
 First loop: 0 \
 Second loop: 10 \
 First loop: 0 \
@@ -163,7 +163,7 @@ int main() {
 }
 
 ```
-Output: \
+**Output:** \
 i = 0, j = 0	\
 i = 0 \
 i = 0, j = 1 \
@@ -203,7 +203,7 @@ int main() {
 }
 
 ```
-Output: \
+**Output:** \
 Outer i = 0 \
 Inner i = 10 \
 Outer i = 0 \
@@ -212,5 +212,5 @@ Outer i = 0 \
 
 ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzAyMzE5NzRdfQ==
+eyJoaXN0b3J5IjpbLTkxNzQ0MTEyNiwtMjEzMDIzMTk3NF19
 -->
