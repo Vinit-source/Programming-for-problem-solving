@@ -17,12 +17,12 @@ int main() {
 }
 
 ```
-Output:
-0
-1
-2
-3
-4
+Output: \
+0 \
+1 \
+2 \
+3 \
+4 
 
 ----------
 
@@ -44,11 +44,11 @@ int main() {
 }
 
 ```
-Output:
-Inside for loop: 0
-Inside for loop: 1
-Inside for loop: 2
-Outside for loop: 3
+Output: \
+Inside for loop: 0 \
+Inside for loop: 1 \
+Inside for loop: 2 \
+Outside for loop: 3  
 
 ----------
 
@@ -74,13 +74,13 @@ int main() {
 
 ```
 
-Output:
-Inside for loop: 10
-Inside for loop: 11
-Inside for loop: 12
-Inside for loop: 13
-Inside for loop: 14
-Outside for loop: 15
+Output: \
+Inside for loop: 10 \
+Inside for loop: 11 \
+Inside for loop: 12 \
+Inside for loop: 13 \
+Inside for loop: 14 \
+Outside for loop: 15 \
 
 
 ----------
@@ -102,10 +102,10 @@ int main() {
 }
 
 ```
-Output:
-i = 0, j = 3
-i = 1, j = 2
-i = 2, j = 1
+Output: \
+i = 0, j = 3 \
+i = 1, j = 2 \
+i = 2, j = 1 \
 
 
 ----------
@@ -130,13 +130,13 @@ int main() {
 }
 
 ```
-Output:
-First loop: 0
-Second loop: 10
-First loop: 0
-Second loop: 11
-First loop: 0
-Second loop: 12
+Output: \
+First loop: 0 \
+Second loop: 10 \
+First loop: 0 \
+Second loop: 11 \
+First loop: 0 \
+Second loop: 12 \
 ...
 ...
 
@@ -163,16 +163,16 @@ int main() {
 }
 
 ```
-Output: 
+Output: \
 i = 0, j = 0	\
 i = 0 \
 i = 0, j = 1 \
-i=0
-i = 0, j = 2
-i = 0
-i = 1, j = 0
-i = 1
-i = 1, j = 1
+i=0 \
+i = 0, j = 2 \
+i = 0 \
+i = 1, j = 0 \
+i = 1 \
+i = 1, j = 1 \
 ...
 ...
 
@@ -203,14 +203,14 @@ int main() {
 }
 
 ```
-Output:
-Outer i = 0
-Inner i = 10
-Outer i = 0
+Output: \
+Outer i = 0 \
+Inner i = 10 \
+Outer i = 0 \
 ...
 ...
 
 ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTA1MDY3NCwtNDMwMDUzNjU4XX0=
+eyJoaXN0b3J5IjpbLTIxMzAyMzE5NzQsLTQzMDA1MzY1OF19
 -->
