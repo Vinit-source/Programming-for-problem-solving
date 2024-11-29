@@ -20,25 +20,25 @@ To write C programs to demonstrate the use of functions in C.
 ```mermaid
 graph TD;
 
-subgraph "add(a, b)" 
+subgraph "add(x, y)" 
 	addStart([Start]);
-	B1([Return a + b]);
+	B1([Return x + y]);
 	addStart --> B1;
 end
-subgraph "subtract(a, b)"
+subgraph "subtract(x, y)"
 	subStart([Start]);
-	B2([Return a - b]);
+	B2([Return x - y]);
 	subStart --> B2;
 end
-subgraph "multiply(a, b)"
+subgraph "multiply(x, y)"
 	mulStart([Start]);
-	B3([Return a * b]);
+	B3([Return x * y]);
 	mulStart --> B3;
 end
-subgraph "divide(a, b)"
+subgraph "divide(x, y)"
 	divStart([Start]);
-	J{Is b != 0?};
-    J -- Yes --> K([Return a / b]);
+	J{Is y != 0?};
+    J -- Yes --> K([Return x / y]);
     J -- No --> M[/Print 'Division by zero error'/];
     divStart --> J;
     M --> MR([Return 0]);
@@ -58,7 +58,7 @@ subgraph main
 	CB --> addStart;
 	B1 --> E 
     E[["printResult('a + b', sum"]];
-    E --> F[["diff = subtract(a, b)"]];
+    E --> printStart;F[["diff = subtract(c, d)"]];
     F --> subStart;
     B2 --> G[/Print diff/];
     G --> H[["product = multiply(sum, diff)"]];
@@ -139,5 +139,6 @@ int main() {
 5. Write a function to calculate the sum of an array of numbers and display the average.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzE1NjcyNywtMTI5MzcwMjEyMF19
+eyJoaXN0b3J5IjpbLTE0NTkzMjAxMzAsLTEyOTM3MDIxMjBdfQ
+==
 -->
