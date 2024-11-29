@@ -53,7 +53,7 @@ subgraph ide3["factorial(c)"]
 end
 subgraph ide2["factorial(b)"]
 	    funcStart2([Start])
-        funcStart2 --> A2[Declare f\n Assume b is a-1];
+        funcStart2 --> A2[Declare f\n; Assume b is a-1];
         A2 --> B2{"Check if b == 0 or b == 1"};
         B2 -- Yes --> C2([Return 1]);
         B2 -- No --> D2[["f = factorial(b-1)"]];
@@ -145,5 +145,5 @@ int main() {
 5. **Determine if a string is a palindrome by comparing characters recursively from the start and end towards the center.**
    - Compare the first and last characters of the string. If they are equal, call the function recursively on the remaining substring.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTA3MzE5NF19
+eyJoaXN0b3J5IjpbLTIxNDE5NzUyMDUsMTQwOTA3MzE5NF19
 -->
