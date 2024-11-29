@@ -86,8 +86,10 @@ subgraph main
     CME1 --> DB0{Is e != 0?};
     DB0 -- Yes --> I1[["finalResult = divide(product, e)"]];
     I1 --> divStart;
-    K --> L[/Print finalResult/];
-    L --> N([Stop]);
+    K --> L[["printResult('(a + b) * (c - d) / e', finalResult)"]];
+    L --> CDS1;
+    CDS1 -.-> CDE1;
+    CDE1 --> N([Stop]);
     DB0 -- No --> N0[/"Print 'Division by zero Error'"/];
     N0 --> N
    end
@@ -158,5 +160,5 @@ int main() {
 5. Write a function to calculate the sum of an array of numbers and display the average.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mjc3OTgzMiwtMTI5MzcwMjEyMF19
+eyJoaXN0b3J5IjpbMTkwMDE1NDgwOCwtMTI5MzcwMjEyMF19
 -->
