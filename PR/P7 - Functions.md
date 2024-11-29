@@ -1,8 +1,8 @@
 
-## Write a C Program to Implement Functions for Arithmetic Operations and Print Results in a Specific Format
+## Write C programs to demonstrate the use of functions in C.
 
 ### Aim
-To create functions that perform addition, subtraction, multiplication, and division of two numbers, and to call these functions multiple times to solve a given expression and print results in a specific format.
+To write C programs to demonstrate the use of functions in C.
 
 ### Example Problem
 **Problem Statement:** Write functions for addition, subtraction, multiplication, division, and a user-defined function to print the results in a specific format. Use these functions to solve the expression `((a + b) * (c - d)) / e`, where `a`, `b`, `c`, `d`, and `e` are provided by the user. Display each intermediate step in a specific format using the user-defined print function.
@@ -132,5 +132,5 @@ int main() {
 5. Write a function to calculate the sum of an array of numbers and display the average.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTM3MDIxMjBdfQ==
+eyJoaXN0b3J5IjpbMjc3MjU4MDI5LC0xMjkzNzAyMTIwXX0=
 -->
