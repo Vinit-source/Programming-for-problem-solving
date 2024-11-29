@@ -68,8 +68,6 @@ subgraph ide2["factorial(b)"]
         B1 -- No --> D1[["f = factorial(a-1)"]];
         D1 --> funcStart2
         E2 --> E1([Return a * f]);
-        flowchart TD
-    A@{ shape: text, label: "This is a text block" }
 
     end
 subgraph main
@@ -147,5 +145,5 @@ int main() {
 5. **Determine if a string is a palindrome by comparing characters recursively from the start and end towards the center.**
    - Compare the first and last characters of the string. If they are equal, call the function recursively on the remaining substring.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDY5NDQ1OCwtMTQwMjMxODEyM119
+eyJoaXN0b3J5IjpbMTQwOTA3MzE5NF19
 -->
