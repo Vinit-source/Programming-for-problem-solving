@@ -160,5 +160,5 @@ int main() {
 5. Write a function to calculate the sum of an array of numbers and display the average.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDE1NDgwOCwtMTI5MzcwMjEyMF19
+eyJoaXN0b3J5IjpbMTkwMDE1NDgwOF19
 -->
