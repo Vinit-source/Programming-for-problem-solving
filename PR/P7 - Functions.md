@@ -61,7 +61,8 @@ subgraph main
     R --> F[["diff = subtract(c, d)"]];
     F --> subStart;
     B2 --> G[["printResult('a - b', diff)"]];
-    G --> H[["product = multiply(sum, diff)"]];
+    G --> printStart;
+    R --> H[["product = multiply(sum, diff)"]];
     H --> mulStart;
     B3 --> I[/Print value of product/];
     I --> DB0{Is e != 0?};
@@ -139,5 +140,6 @@ int main() {
 5. Write a function to calculate the sum of an array of numbers and display the average.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1MjM0NzgyLC0xMjkzNzAyMTIwXX0=
+eyJoaXN0b3J5IjpbLTEyNTMwODgxMjgsLTEyOTM3MDIxMjBdfQ
+==
 -->
