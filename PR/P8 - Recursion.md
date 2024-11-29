@@ -103,14 +103,14 @@ int main() {
 ```c
 #include <stdio.h>
 
-long long factorial(int n) {
-    long long f;
+int factorial(int n) {
+    int f;
     if (n == 0 || n == 1) {
         return 1;
     }
     printf("n : %d\n", n);
     f = factorial(n - 1);
-    printf("factorial(n-1) : %lld\n", f);
+    printf("factorial(n-1) : %d\n", f);
     return n * f;
 }
 
@@ -119,7 +119,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    printf("Factorial of %d is %lld\n", n, factorial(n));
+    printf("Factorial of %d is %d\n", n, factorial(n));
     return 0;
 }
 ```
@@ -144,5 +144,5 @@ int main() {
 5. **Determine if a string is a palindrome by comparing characters recursively from the start and end towards the center.**
    - Compare the first and last characters of the string. If they are equal, call the function recursively on the remaining substring.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTIxNDI0OSwtMjA4ODU4NzUyM119
+eyJoaXN0b3J5IjpbLTExOTE4NjI2NjNdfQ==
 -->
