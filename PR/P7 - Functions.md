@@ -19,20 +19,52 @@ To create functions that perform addition, subtraction, multiplication, and divi
 ### Flowchart
 ```mermaid
 graph TD;
-    A[Start] --> B[Declare functions for addition, subtraction, multiplication, division];
-    B --> C[/Input values for a, b, c, d, e from user/];
-    C --> D[Calculate sum = a + b using addition function];
-    D --> E[/Print result of a + b/];
-    E --> F[Calculate diff = c - d using subtraction function];
-    F --> G[/Print result of c - d/];
-    G --> H[Calculate product = sum * diff using multiplication function];
-    H --> I[/Print value of product/];
-    I --> J{Is e != 0?};
-    J -- Yes --> K[Calculate finalResult = product / e using division function];
-    K --> L[/Print final result/];
+
+subgraph "add(a, b)" 
+	addStart([Start]);
+	B1([Return a + b]);
+	addStart --> B1;
+end
+subgraph "subtract(a, b)"
+	subStart([Start]);
+	B2([Return a - b]);
+	subStart --> B2;
+end
+subgraph "multiply(a, b)"
+	mulStart([Start]);
+	B3([Return a * b]);
+	mulStart --> B3;
+end
+subgraph "divide(a,b)"
+	divStart([Start]);
+	J{Is b != 0?};
+    J -- Yes --> K([Return a / b]);
     J -- No --> M[/Print 'Division by zero error'/];
-    L --> N[End];
-    M --> N;
+    divStart --> J;
+    M --> MR([Return 0]);
+end
+subgraph main
+    A([Start]) --> B[Declare functions for addition, subtraction, multiplication, division];
+    B --> BB[Declare a, b, c, d, e, sum, diff, product, finalResult];
+    BB --> C[/Input values for a, b, c, d, e from user/];
+	C --> CB[["sum = add(a, b)"]];
+	CB --> addStart;
+	B1 --> E 
+    E[/Print sum/];
+    E --> F[["diff = subtract(a, b)"]];
+    F --> subStart;
+    B2 --> G[/Print diff/];
+    G --> H[["product = multiply(sum, diff)"]];
+    H --> mulStart;
+    B3 --> I[/Print value of product/];
+    I --> DB0{Is e != 0?};
+    DB0 -- Yes --> I1[["finalResult = divide(product, e)"]];
+    I1 --> divStart;
+    K --> L[/Print finalResult/];
+    L --> N([Stop]);
+    DB0 -- No --> N0[/"Print 'Division by zero Error'"/];
+    N0 --> N
+   end
 ```
 - **Details:** The flowchart illustrates the steps of calculating intermediate results using individual arithmetic functions and printing the final result.
 
@@ -100,5 +132,5 @@ int main() {
 5. Write a function to calculate the sum of an array of numbers and display the average.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODM2NTE3N119
+eyJoaXN0b3J5IjpbLTEyOTM3MDIxMjBdfQ==
 -->
