@@ -51,23 +51,23 @@ subgraph ide3["factorial(n-2)"]
 	funcStart3 --> A3[...];
 	A3 --> E3([Returns 1 or n * f]);
 end
-subgraph ide2["factorial(n-1)"]
+subgraph ide2["factorial(y)"]
 	    funcStart2([Start])
-        funcStart2 --> A2[Declare f];
-        A2 --> B2{Check if n-1 == 0 or n-1 == 1};
+        funcStart2 --> A2[Declare f, Assume y is x-1];
+        A2 --> B2{"Check if y == 0 or (n-1) == 1"};
         B2 -- Yes --> C2([Return 1]);
         B2 -- No --> D2[["f = factorial(n-2)"]];
         D2 --> funcStart3;
         E3 --> E2([Return n * f]);
  end
- subgraph ide1["factorial(n)"]
+ subgraph ide1["factorial(x)"]
 		funcStart([Start]);
         funcStart --> A1[Declare f];
-        A1 --> B1{Check if n == 0 or n == 1};
+        A1 --> B1{Check if x == 0 or x == 1};
         B1 -- Yes --> C1([Return 1]);
-        B1 -- No --> D1[["f = factorial(n-1)"]];
+        B1 -- No --> D1[["f = factorial(x-1)"]];
         D1 --> funcStart2
-        E2 --> E1([Return n * f]);
+        E2 --> E1([Return x * f]);
     end
 subgraph main
 	Start([Start]) --> B[Declare n];
@@ -144,5 +144,5 @@ int main() {
 5. **Determine if a string is a palindrome by comparing characters recursively from the start and end towards the center.**
    - Compare the first and last characters of the string. If they are equal, call the function recursively on the remaining substring.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MDM3MzcyNSwtMTQwMjMxODEyM119
+eyJoaXN0b3J5IjpbMTY1MzYxMDU1MSwtMTQwMjMxODEyM119
 -->
