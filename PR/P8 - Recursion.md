@@ -47,7 +47,7 @@ To write C programs to understand the concept of recursion.
 ```mermaid
 flowchart TD;
 subgraph ide3["factorial(n-2)"]
-	funcStart3([Function: factorial of n-2])
+	funcStart3([Start])
 	funcStart3 --> A3[...];
 	A3 --> E3([Returns 1 or n * f]);
 end
@@ -144,5 +144,5 @@ int main() {
 5. **Determine if a string is a palindrome by comparing characters recursively from the start and end towards the center.**
    - Compare the first and last characters of the string. If they are equal, call the function recursively on the remaining substring.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTYwNDU2OF19
+eyJoaXN0b3J5IjpbLTE0MDIzMTgxMjMsMTQ2MTYwNDU2OF19
 -->
