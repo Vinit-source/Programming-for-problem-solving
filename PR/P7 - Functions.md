@@ -43,9 +43,9 @@ subgraph "divide(a, b)"
     divStart --> J;
     M --> MR([Return 0]);
 end
-subgraph "printResult(a, b)"
+subgraph "printResult(operation, result)"
 	printStart([Start]);
-	P[/Print 'a : b'/];
+	P[/Print formatted 'operation = result'/];
 	R([Return]);
 	printStart --> P;
 	P --> R;
@@ -139,5 +139,5 @@ int main() {
 5. Write a function to calculate the sum of an array of numbers and display the average.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTI0NDU5NiwtMTI5MzcwMjEyMF19
+eyJoaXN0b3J5IjpbMTU3MzE1NjcyNywtMTI5MzcwMjEyMF19
 -->
