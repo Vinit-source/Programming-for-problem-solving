@@ -50,15 +50,19 @@ subgraph "printResult(operation, result)"
 	printStart --> P;
 	P --> R;
 end
+
+CS2((C1));
+CE2((C2));
 CAS1((C1));
-CAS2((C1));
+CSS1((C1));
+CMS1((C1));
+CDS1((C1));
 CAE1((C2));
-CAE2((C2));
-C5((C1));
-C6((C1));
-C7((C1));
-CAS2 --> printStart;
-R --> CAE1;
+CSE1((C2));
+CME1((C2));
+CDE1((C2));
+CS2 --> printStart;
+R --> CE2;
 
 subgraph main
     A([Start]) --> B[Declare functions for addition, subtraction, multiplication, division];
@@ -72,7 +76,7 @@ subgraph main
     CAE2 --> F[["diff = subtract(c, d)"]];
     F --> subStart;
     B2 --> G[["printResult('a - b', diff)"]];
-    G --> CAS1;
+    G --> CS2;
     C4 --> H[["product = multiply(sum, diff)"]];
     H --> mulStart;
     B3 --> I[/Print value of product/];
@@ -151,5 +155,5 @@ int main() {
 5. Write a function to calculate the sum of an array of numbers and display the average.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDMwNzY1OCwtMTI5MzcwMjEyMF19
+eyJoaXN0b3J5IjpbMTQyNDg0NjE0OCwtMTI5MzcwMjEyMF19
 -->
