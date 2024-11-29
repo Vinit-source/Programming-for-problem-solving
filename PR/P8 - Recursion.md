@@ -77,7 +77,7 @@ subgraph main
 ```
 - **Details:** The flowchart represents the recursive calculation of factorial, with a base case to stop the recursion and recursive calls to solve the problem.
 
-### Hint Code Snippet
+### Code
 #### Iterative Version
 ```c
 #include <stdio.h>
@@ -89,6 +89,7 @@ int main() {
 
     for (int i = 1; i <= n; i++) {
         factorial *= i;
+        printf("Loop iteration %d: factorial=%d\n", i, factorial);
     }
 
     printf("Factorial of %d is %d\n", n, factorial);
@@ -99,11 +100,15 @@ int main() {
 ```c
 #include <stdio.h>
 
-int factorial(int n) {
+long long factorial(int n) {
+    long long f;
     if (n == 0 || n == 1) {
         return 1;
     }
-    return n * factorial(n - 1);
+    printf("n : %d\n", n);
+    f = factorial(n - 1);
+    printf("factorial(n-1) : %lld\n", f);
+    return n * f;
 }
 
 int main() {
@@ -111,7 +116,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    printf("Factorial of %d is %d\n", n, factorial(n));
+    printf("Factorial of %d is %lld\n", n, factorial(n));
     return 0;
 }
 ```
@@ -136,5 +141,5 @@ int main() {
 5. **Determine if a string is a palindrome by comparing characters recursively from the start and end towards the center.**
    - Compare the first and last characters of the string. If they are equal, call the function recursively on the remaining substring.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxNDQxMDIzXX0=
+eyJoaXN0b3J5IjpbLTIwODg1ODc1MjMsNDIxNDQxMDIzXX0=
 -->
