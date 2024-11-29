@@ -54,7 +54,7 @@ end
 subgraph ide2["factorial(n-1)"]
 	    funcStart2([Start])
         funcStart2 --> A2[Declare f];
-        A2 --> B2{Check if n == 0 or n == 1};
+        A2 --> B2{Check if n-1 == 0 or n-1 == 1};
         B2 -- Yes --> C2([Return 1]);
         B2 -- No --> D2[["f = factorial(n-2)"]];
         D2 --> funcStart3;
@@ -144,5 +144,5 @@ int main() {
 5. **Determine if a string is a palindrome by comparing characters recursively from the start and end towards the center.**
    - Compare the first and last characters of the string. If they are equal, call the function recursively on the remaining substring.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDIzMTgxMjNdfQ==
+eyJoaXN0b3J5IjpbMTY2MDM3MzcyNSwtMTQwMjMxODEyM119
 -->
