@@ -46,19 +46,19 @@ To write C programs to understand the concept of recursion.
 #### Flowchart
 ```mermaid
 flowchart TD;
-subgraph ide3["factorial(n-2)"]
+subgraph ide3["factorial(c)"]
 	funcStart3([Start])
-	funcStart3 --> A3[...];
-	A3 --> E3([Returns 1 or n * f]);
+	funcStart3 --> A3[Assume c is b - 1\n...];
+	A3 --> E3([Returns 1 or c * f]);
 end
 subgraph ide2["factorial(b)"]
 	    funcStart2([Start])
         funcStart2 --> A2[Declare f\n Assume b is a-1];
         A2 --> B2{"Check if b == 0 or b == 1"};
         B2 -- Yes --> C2([Return 1]);
-        B2 -- No --> D2[["f = factorial(y-1)"]];
+        B2 -- No --> D2[["f = factorial(b-1)"]];
         D2 --> funcStart3;
-        E3 --> E2([Return n * f]);
+        E3 --> E2([Return b * f]);
  end
  subgraph ide1["factorial(a)"]
 		funcStart([Start]);
@@ -68,6 +68,9 @@ subgraph ide2["factorial(b)"]
         B1 -- No --> D1[["f = factorial(a-1)"]];
         D1 --> funcStart2
         E2 --> E1([Return a * f]);
+        flowchart TD
+    A@{ shape: text, label: "This is a text block" }
+
     end
 subgraph main
 	Start([Start]) --> B[Declare n];
@@ -144,5 +147,5 @@ int main() {
 5. **Determine if a string is a palindrome by comparing characters recursively from the start and end towards the center.**
    - Compare the first and last characters of the string. If they are equal, call the function recursively on the remaining substring.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4NDAwMzYzLC0xNDAyMzE4MTIzXX0=
+eyJoaXN0b3J5IjpbMTg1NDY5NDQ1OCwtMTQwMjMxODEyM119
 -->
