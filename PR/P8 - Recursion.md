@@ -46,17 +46,17 @@ To write C programs to understand the concept of recursion.
 #### Flowchart
 ```mermaid
 flowchart TD;
-subgraph ide3["factorial of n-2"]
+subgraph ide3["factorial(n-2)"]
 	funcStart3([Function: factorial of n-2])
 	funcStart3 --> A3[...];
-	A3 --> E3[Returns 1 or n * f];
+	A3 --> E3([Returns 1 or n * f]);
 end
 subgraph ide2["factorial(n-1)"]
 	    funcStart2([Start])
         funcStart2 --> A2[Declare f];
         A2 --> B2{Check if n == 0 or n == 1};
-        B2 -- Yes --> C2[Return 1];
-        B2 -- No --> D2["f = factorial of n-2"];
+        B2 -- Yes --> C2([Return 1]);
+        B2 -- No --> D2[["f = factorial(n-2)"]];
         D2 --> funcStart3;
         E3 --> E2([Return n * f]);
  end
@@ -64,15 +64,15 @@ subgraph ide2["factorial(n-1)"]
 		funcStart([Start]);
         funcStart --> A1[Declare f];
         A1 --> B1{Check if n == 0 or n == 1};
-        B1 -- Yes --> C1[Return 1];
-        B1 -- No --> D1["f = factorial(n-1)"];
+        B1 -- Yes --> C1([Return 1]);
+        B1 -- No --> D1[["f = factorial(n-1)"]];
         D1 --> funcStart2
         E2 --> E1([Return n * f]);
     end
 subgraph main
 	Start([Start]) --> B[Declare n];
     B --> C[/Input value of n/];
-    C --> D["factorial(n)"]
+    C --> D[["factorial(n)"]]
     D --> funcStart
     E1 -->  E[/Print factorial result/];
     E --> F([Stop]);
@@ -144,5 +144,5 @@ int main() {
 5. **Determine if a string is a palindrome by comparing characters recursively from the start and end towards the center.**
    - Compare the first and last characters of the string. If they are equal, call the function recursively on the remaining substring.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5MjY3ODk1LC0xMTkxODYyNjYzXX0=
+eyJoaXN0b3J5IjpbMTQ2MTYwNDU2OCwtMTE5MTg2MjY2M119
 -->
