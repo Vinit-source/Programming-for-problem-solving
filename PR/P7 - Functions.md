@@ -56,8 +56,8 @@ subgraph main
     BB --> C[/Input values for a, b, c, d, e from user/];
 	C --> CB[["sum = add(a, b)"]];
 	CB --> addStart;
-	B1 --> printStart; 
-    E[/Print sum/];
+	B1 --> E 
+    E[["printResult('a + b', sum"]];
     E --> F[["diff = subtract(a, b)"]];
     F --> subStart;
     B2 --> G[/Print diff/];
@@ -139,5 +139,5 @@ int main() {
 5. Write a function to calculate the sum of an array of numbers and display the average.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODg1MzM4MiwtMTI5MzcwMjEyMF19
+eyJoaXN0b3J5IjpbMTcyOTI0NDU5NiwtMTI5MzcwMjEyMF19
 -->
