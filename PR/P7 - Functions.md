@@ -50,6 +50,7 @@ subgraph "printResult(operation, result)"
 	printStart --> P;
 	P --> R;
 end
+C1 ((Connector 1));
 subgraph main
     A([Start]) --> B[Declare functions for addition, subtraction, multiplication, division];
     B --> BB[Declare a, b, c, d, e, sum, diff, product, finalResult];
@@ -57,7 +58,7 @@ subgraph main
 	C --> CB[["sum = add(a, b)"]];
 	CB --> addStart;
 	B1 --> E[["printResult('a + b', sum)"]];
-    E --> printStart;
+    E --> C1;
     R --> F[["diff = subtract(c, d)"]];
     F --> subStart;
     B2 --> G[["printResult('a - b', diff)"]];
@@ -140,6 +141,5 @@ int main() {
 5. Write a function to calculate the sum of an array of numbers and display the average.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTMwODgxMjgsLTEyOTM3MDIxMjBdfQ
-==
+eyJoaXN0b3J5IjpbMTQxNTA2Nzc5MCwtMTI5MzcwMjEyMF19
 -->
