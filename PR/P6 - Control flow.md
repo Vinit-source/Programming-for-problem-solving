@@ -19,14 +19,14 @@ To write a C program that demonstrates the use of if-else, switch-case, and loop
 #### Flowchart
 ```mermaid
 graph TD;
-    A[Start] --> B[Declare variables for numbers and choice];
+    A([Start]) --> B[Declare variables for numbers and choice];
     B --> C[Repeat until user chooses to exit];
     C --> D[/Display menu: Addition, Subtraction, Multiplication, Division, Exit/];
     D --> E[/Input choice from user/];
     E --> F{Is choice valid?};
     F -- No --> G[Print 'Invalid choice' and repeat];
     F -- Yes --> H{Is choice Exit?};
-    H -- Yes --> I[End];
+    H -- Yes -----> I([Stop]);
     H -- No --> J[/Input numbers a and b/];
     J --> K[Perform arithmetic operation based on choice];
     K --> L[/Print result/];
@@ -66,5 +66,5 @@ graph TD;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3MTgzNzE4XX0=
+eyJoaXN0b3J5IjpbLTk1MzcxMTYxMF19
 -->
