@@ -52,8 +52,8 @@ subgraph "printResult(operation, result)"
 end
 CAS1((C1));
 CAS2((C1));
-CAE1((C1));
-CAE2((C1));
+CAE1((C2));
+CAE2((C2));
 C5((C1));
 C6((C1));
 C7((C1));
@@ -150,6 +150,6 @@ int main() {
 5. Write a function to calculate the sum of an array of numbers and display the average.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzcxNDM0MTIsLTEyOTM3MDIxMjBdfQ
+eyJoaXN0b3J5IjpbLTE2MjkwMzIyMTIsLTEyOTM3MDIxMjBdfQ
 ==
 -->
