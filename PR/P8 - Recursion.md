@@ -82,50 +82,7 @@ subgraph main
 ```
 - **Details:** The flowchart represents the recursive calculation of factorial, with a base case to stop the recursion and recursive calls to solve the problem.
 
-### Code
-#### Iterative Version
-```c
-#include <stdio.h>
-
-int main() {
-    int n, factorial = 1;
-    printf("Enter a number: ");
-    scanf("%d", &n);
-
-    for (int i = 1; i <= n; i++) {
-        factorial *= i;
-        printf("Loop iteration %d: factorial=%d\n", i, factorial);
-    }
-
-    printf("Factorial of %d is %d\n", n, factorial);
-    return 0;
-}
-```
-#### Recursive Version
-```c
-#include <stdio.h>
-
-int factorial(int n) {
-    int f;
-    if (n == 0 || n == 1) {
-        return 1;
-    }
-    printf("n : %d\n", n);
-    f = factorial(n - 1);
-    printf("factorial(n-1) : %d\n", f);
-    return n * f;
-}
-
-int main() {
-    int n;
-    printf("Enter a number: ");
-    scanf("%d", &n);
-
-    printf("Factorial of %d is %d\n", n, factorial(n));
-    return 0;
-}
-```
-- **Hint:** Recursion is often more readable but may be less efficient than iteration for large inputs due to function call overhead and risk of stack overflow.
+Recursion is often more readable but may be less efficient than iteration for large inputs due to function call overhead and risk of stack overflow.
 
 ### Suggested Programs (any 1)
 1. **Print the Fibonacci series using loop (without recursion) and with recursion.**
@@ -146,5 +103,5 @@ int main() {
 5. **Determine if a string is a palindrome by comparing characters recursively from the start and end towards the center.**
    - Compare the first and last characters of the string. If they are equal, call the function recursively on the remaining substring.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2NzU1NzZdfQ==
+eyJoaXN0b3J5IjpbLTE1MDk1MTQ0NjBdfQ==
 -->
