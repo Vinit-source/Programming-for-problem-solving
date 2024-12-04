@@ -96,62 +96,6 @@ subgraph main
 ```
 - **Details:** The flowchart illustrates the steps of calculating intermediate results using individual arithmetic functions and printing the final result.
 
-### Hint Code Snippet
-- Declare functions for each arithmetic operation.
-- Call these functions in the main program to solve the expression.
-
-```c
-// Function definitions
-void printResult(char* operation, int result) {
-    printf("%s = %d\n", operation, result);
-}
-
-int add(int x, int y) {
-    return x + y;
-}
-
-int subtract(int x, int y) {
-    return x - y;
-}
-
-int multiply(int x, int y) {
-    return x * y;
-}
-
-int divide(int x, int y) {
-    if (y != 0) return x / y;
-    else {
-        printf("Division by zero error\n");
-        return 0;
-    }
-}
-
-int main() {
-    int a, b, c, d, e;
-    printf("Enter values for a, b, c, d, e: ");
-    scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
-
-    int sum = add(a, b);
-    printResult("a + b", sum);
-
-    int diff = subtract(c, d);
-    printResult("c - d", diff);
-
-    int product = multiply(sum, diff);
-    printResult("(a + b) * (c - d)", product);
-
-    if (e != 0) {
-        int finalResult = divide(product, e);
-        printResult("((a + b) * (c - d)) / e", finalResult);
-    } else {
-        printf("Division by zero error\n");
-    }
-
-    return 0;
-}
-```
-
-- **Hint:** Make sure to handle the division by zero case in the division function.
 
 ### Suggested Programs (2 of 5)
 1. Create a function in C to calculate the factorial of a given number and display the result. (Mandatory)
@@ -160,5 +104,5 @@ int main() {
 5. Write a function to calculate the sum of an array of numbers and display the average.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDE1NDgwOF19
+eyJoaXN0b3J5IjpbMTQ0MDk1MTY2MiwxOTAwMTU0ODA4XX0=
 -->
