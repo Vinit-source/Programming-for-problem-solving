@@ -104,5 +104,5 @@ subgraph main
 5. Write a function to calculate the sum of an array of numbers and display the average.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDk1MTY2MiwxOTAwMTU0ODA4XX0=
+eyJoaXN0b3J5IjpbMTQ0MDk1MTY2Ml19
 -->
