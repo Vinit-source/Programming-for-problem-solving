@@ -1,5 +1,7 @@
 # Mini Project Ideas for Students
 
+**Important:** Read through this document and submit your groups and the topic on this form: https://forms.gle/pah8SpU6XR8fa7TZ9. 
+
 ## Basic Level Projects
 
 ### Student Grade Calculator
