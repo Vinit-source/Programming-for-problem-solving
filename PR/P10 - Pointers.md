@@ -1,11 +1,11 @@
 
 # Demonstrating the Use of Pointers and Structures in C
 
-## Objective: Write C Programs to Demonstrate the Use of Pointers and Structures in C
+## Objective: Write C Programs to Demonstrate the Use of Pointers in C
 
 ### Aim
 
-To understand and implement the use of pointers and structures in C programming, enabling efficient memory manipulation and handling of complex data types.
+To understand and implement the use of pointers in C programming.
 
 ### Example Problems
 
