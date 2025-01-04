@@ -41,7 +41,7 @@ To define and manipulate structured data types in C programming.
 
 ## Suggested Programs (Any 1)
 
-### 1. Representing an Employee Record
+### 1. Searching an Employee Record
 
 **Problem Statement:** Define a structure to represent an employee with attributes like name, ID, and salary. Write a program to input and search for employee details by ID.
 
@@ -65,5 +65,5 @@ To define and manipulate structured data types in C programming.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0NzY4NDI2XX0=
+eyJoaXN0b3J5IjpbLTI3MjY2NjU5Miw0NzQ3Njg0MjZdfQ==
 -->
